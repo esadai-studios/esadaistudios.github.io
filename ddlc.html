@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Unhappy February 14</title>
+	<link rel="website icon" type="png"
+    href="img/window_icon.png">
+	<link rel="stylesheet" type="text/css" href="ddlc.css">
+	<script src="ddlc.js"></script>
+
+    <!-- Enlaces a archivos CSS y scripts si los necesitas -->
+</head>
+<body>
+    <!-- Apartado 1: Encabezado -->
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1>An Unhappy February 14</h1>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#descripcion">Descripción</a></li>
+					<li><a href="#galeria">Galería</a></li>
+					<li><a href="#sinopsis">Sinopsis</a></li>
+					<li><a href="#personajes">Personajes</a></li>
+					<li><a href="#descargas">Descargas</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>	
+	
+    <!-- Apartado 2: Cabecera -->
+    <section id="inicio">
+		<section class="header-section">
+			<div class="container">
+				<h2>¡Bienvenido a An Unhappy February 14!</h2>
+				<p>Sumérgete en una historia emocionante llena de intriga, romance y muerte.</p>
+			</div>
+		</section>
+	</section>
+		
+    <!-- Apartado 3: Descripción de la novela visual -->
+    <section id="descripcion">
+		<section class="description-section">
+			<div class="container">
+				<div class="description-content">
+					<h3>Descripción sobre An Unhappy February 14</h3>
+					<p>An Unhappy February 14 es una novela visual inspirada en Doki Doki Literature Club, esta historia esta basada 
+						en un acontecimiento de la vida real (sin la muerte de nadie claro)
+						<br><br>
+						en esta novela visual (aunque claro) veras cosas que realmente pasaron, lo demas es parte de la historia, pero 
+						la historia esta basada en parte, en la vida real
+					</p>
+				</div>
+			</div>
+		</section>				
+    </section>
+
+    <!-- Apartado 4: Galería de imágenes -->
+    <section id="galeria">
+		<section class="gallery-section">
+			<div class="container">
+				<h3 class="section-title">Galería de imágenes</h3>
+			</div>
+			<div class="gallery">
+				<img src="img/screen1.jpg" alt="Imagen 1" onclick="showImage('img/screen1.jpg')">
+				<img src="img/screen2.jpg" alt="Imagen 2" onclick="showImage('img/screen2.jpg')">
+				<img src="img/screen3.jpg" alt="Imagen 3" onclick="showImage('img/screen3.jpg')">
+				<img src="img/screen4.jpg" alt="Imagen 4" onclick="showImage('img/screen4.jpg')">
+				<img src="img/screen1.jpg" alt="Imagen 1" onclick="showImage('img/screen1.jpg')">
+				<img src="img/screen2.jpg" alt="Imagen 2" onclick="showImage('img/screen2.jpg')">
+				<img src="img/screen3.jpg" alt="Imagen 3" onclick="showImage('img/screen3.jpg')">
+				<img src="img/screen4.jpg" alt="Imagen 4" onclick="showImage('img/screen4.jpg')">
+			</div>
+			<div id="imageModal" class="modal">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<img id="modalImage" src="" alt="Imagen en pantalla">
+			</div>
+		</section>		
+    </section>
+
+    <!-- Apartado 5: Sinopsis -->
+    <section id="sinopsis">
+		<section class="description-section">
+			<div class="container">
+				<div class="description-content">
+					<h3>Sinopsis</h3>
+					<p>Eres Kevin un estudiante de la secundaria stase, tu personalidad es la predeterminada en un adolescente, ahora estás en el 3° año de secundaria y tus hormonas están muy alteradas por lo que realmente quieres afecto femenino por lo que tendrás que ponerte alerta.
+						<br><br>
+						Tendrás que enamorar a una de las chicas que más te interese, pero eso sí cuida muy bien las palabras por qué si no pasarán cosas….
+						<br><br>
+						Hablando de ellas, ¿Porqué no las conocemos?.</p>
+				</div>
+			</div>
+		</section>			
+    </section>
+
+    <!-- Apartado 6: Personajes -->
+    <section id="personajes">
+		<section class="character-section">
+			<div class="container">
+				<h3 class="section-title">Personajes</h3>
+			</div>
+			<div class="character">
+				<img src="img/tx.png" alt="Imagen 1" onclick="showImage('img/dorthem.gif')">
+				<img src="img/tx2.png" alt="Imagen 2" onclick="showImage('img/fatima.gif')">
+				<img src="img/tx3.png" alt="Imagen 3" onclick="showImage('img/danna.gif')">
+				<img src="img/tx4.png" alt="Imagen 4" onclick="showImage('img/irazema.gif')">
+			</div>
+			<div id="imageModal" class="ss">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<img id="modalImage" src="" alt="Imagen en pantalla">
+			</div>
+		</section>	
+    </section>
+
+    <!-- Apartado 7: Descargas y plataformas -->
+    <section id="descargas">
+		<div class="downloads">
+			<h2>Descargas y Plataformas</h2>
+			<ul>
+			  <li>
+				<a href="https://gamejolt.com/@ESADAI_STUDIOS">
+				  <img src="img/gamejolt.webp" alt="Descarga 1">
+				</a>
+				<span>(Windows 10, macOS)</span>
+			  </li>
+			  <li>
+				<a href="https://esadai-studios.itch.io">
+				  <img src="img/itchio.svg" alt="Descarga 2">
+				</a>
+				<span>(Windows 10, macOS)</span>
+			  </li>
+			</ul>
+		  </div>		  
+    </section>
+
+    <!-- Apartado 10: Contacto -->
+    <section id="contacto">
+		<div class="contact">
+			<h2>Contacto</h2>
+			<p>Puedes contactarme a través de los siguientes medios:</p>
+			<ul>
+			  <li>Correo electrónico: <a href="https://mail.google.com/mail/?view=cm&to=contactesadaistudios@gmail.com" target="_blank">Enviar correo</a>
+			  </li>
+			  <li>Redes sociales: <a href="https://www.youtube.com/@esadaistudios">Youtube</a>, <a href="https://www.twitter.com/EsadaiStudios">Twitter</a>, <a href="https://www.instagram.com/esadai.studios/">Instagram</a></li>
+			</ul>
+		  </div>					  
+    </section>
+
+    <!-- Apartado 11: Pie de página -->
+	<footer>
+		<div class="footer-content">
+		  <div class="footer-section">
+			<h3>Acerca de</h3>
+			<p>Esadai Studios es una desarrolladora indie orgullosamente mexicana ubicada en Culiacán, Sinaloa,<br><br>
+				si tiene alguna duda o quiere hacer alguna aclaracion contactenos por correo electronico dando click aqui 
+				<a href="https://mail.google.com/mail/?view=cm&to=contactesadaistudios@gmail.com" target="_blank">Enviar correo</a> .</p>
+		  </div>
+		  <div class="footer-section">
+			<h3>Enlaces</h3>
+			<ul>
+			  <li><a href="#">Inicio</a></li>
+			  <li><a href="#">Novelas Visuales</a></li>
+			  <li><a href="#galeria">Galería</a></li>
+			  <li><a href="#contacto">Contacto</a></li>
+			</ul>
+		  </div>
+		  <div class="footer-section">
+			<h3>Síguenos</h3>
+			<ul class="social-media">
+			  <li><a href="https://www.instagram.com/esadai.studios/">Instagram</a></li>
+			  <li><a href="https://www.twitter.com/EsadaiStudios">Twitter</a></li>
+			  <li><a href="https://www.youtube.com/@esadaistudios">Youtube</a></li>
+			</ul>
+		  </div>
+		</div>
+		<div class="footer-bottom">
+		  <p>Todos los derechos reservados &copy; 2023 | An Unhappy February 14</p>
+		</div>
+	  </footer>	  
+</body>
+</html>
